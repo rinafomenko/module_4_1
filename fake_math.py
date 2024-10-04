@@ -1,3 +1,6 @@
 def divide(first, second):
-    c = first / second
-    return c
+    if second != 0:
+        c = first / second
+        return c
+    else:
+        return "ОШИБКА"
